@@ -1,7 +1,7 @@
 Feature: Accounting Process Validation for FX Mark to Market (MTM) Event
 This feature will test the end-to-end process of Posting Sub Ledger entries for Event-based FX MTM event
 
-   ## Pre requisite before every scenario
+   ## Pre requisite help before every scenario
    Background:
     Given  Environment for application is "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2flogin-epvg-test-saasfaprod1.fa.ocs.oraclecloud.com%2f&c=E,1,feIbB5-hhUGQOcrvlYgmqddKxHPCG2054Qq5-GHt9NBlFPQjAfcTwviYbk5ovODC5hVF_kJt2dj5E1sFqYv1w18ezASxj0eS0uasZBndBoPb&typo=1"
     And login to application with username "James Wick"

@@ -18,14 +18,12 @@ public class Accounting_Process_Validation_for_FX_Mark_to_Market {
     }
 
     @When("^Run 'Import Accounting Transactions' under schedule process$")
-    public void Run_Import_Accounting_Transactions_under_schedule process() throws Throwable {
+    public void Run_Import_Accounting_Transactions_under_schedule_process() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
     @Then("^Validate Subledger Enteries and View Journal Entry$")
-    public void Validate_Subledger_Enteries_and_View_Journal Entry() throws Throwable {
+    public void Validate_Subledger_Enteries_and_View_Journal_Entry() throws Throwable {
         Assert.assertEquals(true, true);
-    }
-    
     }
 }

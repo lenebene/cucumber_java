@@ -1,5 +1,5 @@
 Feature: Accounting Process Validation for FX Mark to Market (MTM) Event
-This feature will test the end-to-end process of Posting Sub Ledger entries for Event-based FX MTM event
+This feature will test the end-to-end-ETE process of Posting Sub Ledger entries for Event-based FX MTM event
 
    ## Pre requisite before every scenario
    Background:

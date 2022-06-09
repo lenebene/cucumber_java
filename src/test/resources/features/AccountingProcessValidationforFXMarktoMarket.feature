@@ -16,4 +16,12 @@ Scenario Outline:
     | location |
     | I:/fx_mtm_vanilla_positive.txt |
     | I:/fx_mtm_T0_positive.txt |
+    | I:/fx_mtm_inactive_trade_negative.txt |
+    | I:/fx_mtm_quote_date_less_thn_current.txt |
+    | I:/fx_mtm_T1_positive.txt |
+    | I:/fx_mtm_T1_negative.txt |
+    | I:/fx_mtm_ME_positive.txt |
+    | I:/fx_mtm_ME_negative.txt |
+    | I:/fx_mtm_Treasury_firm_account.txt |
+    | I:/fx_mtm_Non_Treasury_firm_account.txt |
     

@@ -12,6 +12,8 @@ Scenario Outline:
     When upload the Trade data file from <location> and hit Submit
     And  Run 'Import Accounting Transactions' under schedule process
     Then Validate Subledger Enteries and View Journal Entry
+    And Environment for application is "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2flogin-epvg-test-saasfaprod1.fa.ocs.oraclecloud.com%2f&c=E,1,feIbB5-hhUGQOcrvlYgmqddKxHPCG2054Qq5-GHt9NBlFPQjAfcTwviYbk5ovODC5hVF_kJt2dj5E1sFqYv1w18ezASxj0eS0uasZBndBoPb&typo=1"
+    
     Examples:
     | location |
     | I:/fx_mtm_vanilla_positive.txt |
